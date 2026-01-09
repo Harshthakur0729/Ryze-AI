@@ -9,7 +9,6 @@ const Home = () => {
   const logos = ["HG", "MOS", "Motif", "PUPIL", "Ritma", "Speedy", "TETRA", "WILLYS", "caleyx", "directly"];
   const tickerText = "• 2000+ CLIENTS • 700+ AGENCIES • 23+ COUNTRIES • $500M+ AD SPEND MANAGED ";
 
-  // Mouse Spotlight Effect
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   useEffect(() => {
     const handleMouseMove = (e) => setMousePos({ x: e.clientX, y: e.clientY });

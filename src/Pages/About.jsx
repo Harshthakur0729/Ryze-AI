@@ -17,7 +17,6 @@ const About = () => {
         <section className="bg-white dark:bg-zinc-950 py-16 md:py-32 px-4 md:px-8 overflow-hidden transition-colors duration-700">
             <div className="max-w-7xl mx-auto">
 
-                {/* 1. Main Heading & Intro Image - Responsive Fix */}
                 <div className="text-center mb-16 md:mb-32">
                     <h2 className="text-4xl md:text-8xl font-black italic uppercase leading-[1.1] md:leading-[0.85] tracking-tighter dark:text-white mb-8 md:mb-16">
                         We built the ads <br className="hidden md:block" /> manager we <span className="text-orange-500">always wanted.</span>
@@ -31,7 +30,6 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* 2. Story Grid - Section 1 (Mobile Friendly) */}
                 <div className="grid lg:grid-cols-2 gap-8 md:gap-20 items-center mb-20 md:mb-40">
                     <div className="space-y-6 md:space-y-8 order-2 lg:order-1">
                         <p className="text-xl md:text-3xl font-bold text-zinc-500 dark:text-zinc-400 italic leading-snug">
@@ -46,7 +44,6 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* 3. Story Grid - Section 2 (Mobile Friendly) */}
                 <div className="grid lg:grid-cols-2 gap-8 md:gap-20 items-center mb-20 md:mb-40">
                     <div className="w-full h-[300px] md:h-auto md:aspect-square bg-zinc-50 dark:bg-zinc-900 rounded-[24px] md:rounded-[50px] border border-zinc-100 dark:border-zinc-800 overflow-hidden">
                         <img src={img3} className="w-full h-full object-cover md:hover:scale-105 transition-transform duration-700" alt="San Francisco Ryze" />
@@ -59,7 +56,6 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* 4. Full Width Text & Bottom Image Fix */}
                 <div className="max-w-4xl mx-auto text-center mb-20 md:mb-32 px-2">
                     <div className="inline-flex items-center gap-2 mb-6 text-orange-500">
                         <Sparkles size={24} fill="currentColor" />
@@ -72,7 +68,6 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* 5. CONCLUSION & CONTINUOUS COLOR SCROLL */}
                 <div className="space-y-16 md:space-y-24">
                     <div className="max-w-4xl space-y-6 md:space-y-8">
                         <h4 className="text-3xl md:text-6xl font-black italic uppercase dark:text-white leading-[1.1]">
@@ -84,7 +79,6 @@ const About = () => {
                         </button>
                     </div>
 
-                    {/* DYNAMIC COLOR SCROLL (NO GRAYSCALE) */}
                     <div className="relative mt-10 md:mt-20 py-6 md:py-10 border-y border-zinc-100 dark:border-zinc-900 pointer-events-none">
                         <div className="flex overflow-hidden">
                             <div className="flex animate-scroll whitespace-nowrap gap-4 md:gap-8 py-4">
@@ -103,7 +97,6 @@ const About = () => {
                             </div>
                         </div>
 
-                        {/* Gradient Fades */}
                         <div className="absolute inset-y-0 left-0 w-12 md:w-32 bg-gradient-to-r from-white dark:from-zinc-950 to-transparent z-10"></div>
                         <div className="absolute inset-y-0 right-0 w-12 md:w-32 bg-gradient-to-l from-white dark:from-zinc-950 to-transparent z-10"></div>
                     </div>
