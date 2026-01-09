@@ -5,7 +5,7 @@ import {
   Cpu, CheckCircle2
 } from 'lucide-react';
 
-const AdManagerFullLanding = () => {
+const Home = () => {
   const logos = ["HG", "MOS", "Motif", "PUPIL", "Ritma", "Speedy", "TETRA", "WILLYS", "caleyx", "directly"];
   const tickerText = "• 2000+ CLIENTS • 700+ AGENCIES • 23+ COUNTRIES • $500M+ AD SPEND MANAGED ";
 
@@ -239,4 +239,4 @@ const AdManagerFullLanding = () => {
   );
 };
 
-export default AdManagerFullLanding;
+export default Home;
