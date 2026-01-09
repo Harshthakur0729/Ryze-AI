@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* 1. Theme Variables define karein */
+@theme {
+  --color-orange-bg: #fff7ed; /* Light mode orange */
+  --color-dark-bg: #09090b;   /* Dark mode zinc-950 */
+}
+
+/* 2. Dark mode variant enable karein */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 3. Global Styles */
+:root {
+  background-color: var(--color-orange-bg);
+  color: #111827;
+}
+
+/* Jab html par .dark class ho */
+.dark {
+  background-color: var(--color-dark-bg);
+  color: #ffffff;
+}
+
+/* Saare elements ke liye transition */
+* {
+  transition-property: background-color, border-color, color;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
